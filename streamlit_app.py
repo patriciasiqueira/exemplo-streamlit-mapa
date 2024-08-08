@@ -8,6 +8,7 @@ st.header('How did your County Change During Covid?')
 
 # Let the user select a (state, county, demographic) combination to get data on
 # State and County dropdowns appear side by side
+# O Lincoln é lindo
 state_col, county_col = st.columns(2)
 with state_col:
     state_name = st.selectbox("State:", be.get_state_names(), index=4) # 4 = California
